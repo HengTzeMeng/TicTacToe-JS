@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device=width, user-scalable=no, initial-scale=1.0,
+              maximum-scale=1.0, minimum-scale=1.0">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="tictactoe.css">
+    </head>
+    <body>
+        <style>  
+            .container{  
+            text-align: center;  
+            margin: auto;
+            width: 50%;  
+            height: 200px;  
+            padding-top: 100px;  
+            }  
+            #btn{  
+            font-size: 25px;  
+            }  
+            </style>  
+            <div class="container">  
+        <section>
+            <h1 class="game--title">Tic Tac Toe</h1>
+            <h2>Advance</h2>
+            <div class="game--container">
+                <div id="0" class="cell"></div>
+                <div id="1" class="cell"></div>
+                <div id="2" class="cell"></div>
+                <div id="3" class="cell"></div>
+                <div id="4" class="cell"></div>
+                <div id="5" class="cell"></div>
+                <div id="6" class="cell"></div>
+                <div id="7" class="cell"></div>
+                <div id="8" class="cell"></div>
+            </div>
+            
+        </section>
+        <p>Timer: <span id="timer"></span></p>
+        <button id="btn" onClick="handleRestartGame()">
+            Restart Game
+          </button>
+           
+          <div class="finish--result">
+            <div class="text"></div>
+          </div>
+        </div>
+        <script src="tictactoeadv.js"></script>
+    </body>
+</html>

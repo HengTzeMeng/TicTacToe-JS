@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device=width, user-scalable=no, initial-scale=1.0,
+              maximum-scale=1.0, minimum-scale=1.0">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="tictactoe.css">
+    </head>
+    <body>
+        <style>  
+            .container{  
+            text-align: center;  
+            margin: auto;
+            width: 50%;  
+            height: 200px;  
+            padding-top: 100px;  
+            }   
+            </style>  
+            <div class="container"> 
+                <h1 class="game--title">Tic Tac Toe Game</h1>
+            
+        <script>
+            function goToMultiPlayer() {
+                window.location = "multiplayer.html";
+            }
+
+            function goToSinglePlayer() {
+                window.location = "levelselect.html";
+            }
+        </script>
+        
+        <button onclick="goToMultiPlayer()">Multi-Player</button>
+        <button onclick="goToSinglePlayer()">Single-Player</button>
+    </div>
+    </body>
+</html>
